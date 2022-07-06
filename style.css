@@ -1,0 +1,43 @@
+@import url("css/header.css");
+@import url("css/beneficios.css");
+
+:root {
+    --branco-geral: #FFFFFF;
+    --azul-cabecalho: #1b1552;
+    --cor-bg: #d8cececc;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --sourcecode: 'Source Code Pro', sans-serif;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+    background-color: var(--branco-geral);
+}
+
+.container {
+	padding-right: 6%;
+	padding-left: 6%;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+
+    body {
+        font-size: 2rem;
+    }
+
+    .cabecalho {
+        background-image: url("img/bg-desktop.jpg");
+        background-size: cover;
+    }
+
+    .cabecalho__titulo {
+        font-size: 30px;
+    }
+}
+
+
