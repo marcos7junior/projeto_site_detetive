@@ -17,22 +17,21 @@ body {
     background-color: var(--branco-geral);
 }
 
-.whastsapp-link {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 20px;
-    background-color: #25d366;
-    opacity: 0.7;
-    color: #FFFFFF;
-    border-radius: 50px;
-    text-align: center;
-    box-shadow: 1px 1px 2px #888888;
+.clique_whatsapp{
+    display: none;
 }
 
-.fa-whatsapp {
-    margin-top: 16px;
+.whats {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.imagem_whatsapp {
+    width: 60px;
+    height: 60px;
+    opacity: 0.7;
 }
 
 .container {
@@ -50,6 +49,11 @@ body {
         font-size: 2rem;
     }
 
+    .clique_whatsapp{
+        display: flex;
+        font-size: 12px;
+        color: var(--branco-geral);
+    }    
     .cabecalho {
         background-image: url("img/bg-desktop.jpg");
         background-size: cover;
@@ -58,6 +62,8 @@ body {
     .cabecalho__titulo {
         font-size: 30px;
     }
+
+    
 }
 
 

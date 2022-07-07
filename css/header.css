@@ -30,6 +30,15 @@
     text-align: center;
 }
 
+.item__lista-telefone {
+    display: flex;
+}
+
+.imagem_whatsapp-header {
+    width: 20px;
+    height: 20px;
+}
+
 .item__lista {
     color: var(--branco-geral);
     font-size: 1.2rem;  
