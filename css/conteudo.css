@@ -1,0 +1,17 @@
+.conteudo {
+    text-align: center;
+    padding: 1rem;
+}
+
+.conteudo__titulo {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--branco-geral);
+    background-image: linear-gradient(rgb(16, 41, 70), #2652b1); 
+}
+
+.conteudo__texto {
+    padding: 1rem;
+}

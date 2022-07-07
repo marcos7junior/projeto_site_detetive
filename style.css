@@ -1,5 +1,7 @@
 @import url("css/header.css");
 @import url("css/beneficios.css");
+@import url("css/conteudo.css");
+@import url("css/diferenciais.css");
 
 :root {
     --branco-geral: #FFFFFF;
@@ -11,8 +13,26 @@
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: var(--montserrat), sans-serif;
     background-color: var(--branco-geral);
+}
+
+.whastsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    opacity: 0.7;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
 }
 
 .container {

@@ -1,0 +1,20 @@
+.diferenciais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.diferenciais__card {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.diferenciais__texto {
+    font-weight: 700;
+}
+.diferenciais__card-imagem {
+    width: 100px;
+    height: 100px;
+    
+}

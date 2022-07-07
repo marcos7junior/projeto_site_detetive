@@ -8,11 +8,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat+Alternates&family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <a href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" class="whastsapp-link">
+            <i class="fa fa-whatsapp"></i>
+        </a>
         <header class="cabecalho container">
             <img src="img/detetive_logo.png" alt="Logo" class="cabecalho__logo">
             <h1 class="cabecalho__titulo">DETETIVE PARTICULAR - ABIP</h1>
@@ -23,31 +27,55 @@
             </ul>
         </header>
 
-        <section class="beneficios container">
-            <div class="bandeiras">
-                <img src="img/pb.png" alt="bandeira paraíba" class="bandeira__icone">
-                <img src="img/br.png" alt="bandeira brasil" class="bandeira__icone">
-            </div>   
-            <h2 class="beneficios__titulo">ATUAÇÃO NA PARAÍBA E OUTROS ESTADOS DO BRASIL</h2>
+        <main>
+            <section class="beneficios container">
+                <div class="bandeiras">
+                    <img src="img/pb.png" alt="bandeira paraíba" class="bandeira__icone">
+                    <img src="img/br.png" alt="bandeira brasil" class="bandeira__icone">
+                </div>   
+                <h2 class="beneficios__titulo">ATUAÇÃO NA PARAÍBA E OUTROS ESTADOS DO BRASIL</h2>
+                
+                <section class="card__beneficios">
+                    <div class="beneficio__card">
+                        <p class="card__texto">Investigação Conjugal</p>
+                        <img src="img/conjugal.jpg" alt="Inverstigação Conjugal" class="card__imagem">
+                    </div>
+                    <div class="beneficio__card">
+                        <p class="card__texto">Investigação Empresarial</p>
+                        <img src="img/empresarial.jpg" alt="Inverstigação Conjugal" class="card__imagem">
+                    </div>
+                    <div class="beneficio__card">
+                        <p class="card__texto">Investigação Familiar</p>
+                        <img src="img/familiar.jpg" alt="Inverstigação Conjugal" class="card__imagem">
+                    </div>
+                    <div class="beneficio__card">
+                        <p class="card__texto">Pessoas Desaparecidas</p>
+                        <img src="img/desaparecidas.png" alt="Inverstigação Conjugal" class="card__imagem">
+                    </div>
+                </section>
+            </section>
             
-            <section class="card__beneficios">
-                <div class="beneficio__card">
-                    <p class="card__texto">Investigação Conjugal</p>
-                    <img src="img/conjugal.jpg" alt="Inverstigação Conjugal" class="card__imagem">
+            <section class="conteudo container">
+                <h2 class="conteudo__titulo">SOBRE A ABIP</h2>
+                <p class="conteudo__texto">A Agência Brasileira de Investigação Particular conta com mais de 20 anos de experiência.</p>
+            </section>
+
+            <section class="diferenciais">
+                <div class="diferenciais__card">
+                    <p class="diferenciais__texto">Suporte 24h</p>
+                    <img src="img/relogio.jpg" alt="relogio" class="diferenciais__card-imagem">
                 </div>
-                <div class="beneficio__card">
-                    <p class="card__texto">Investigação Empresarial</p>
-                    <img src="img/empresarial.jpg" alt="Inverstigação Conjugal" class="card__imagem">
+                <div class="diferenciais__card">
+                    <p class="diferenciais__texto">Acompanhamento 24h</p>
+                    <img src="img/footprints.jpg" alt="relogio" class="diferenciais__card-imagem">
                 </div>
-                <div class="beneficio__card">
-                    <p class="card__texto">Investigação Familiar</p>
-                    <img src="img/familiar.jpg" alt="Inverstigação Conjugal" class="card__imagem">
-                </div>
-                <div class="beneficio__card">
-                    <p class="card__texto">Pessoas Desaparecidas</p>
-                    <img src="img/desaparecidas.png" alt="Inverstigação Conjugal" class="card__imagem">
+
+                <div class="diferenciais__card">
+                    <p class="diferenciais__texto">Relatório diário</p>
+                    <img src="img/relatorio.jpg" alt="relogio" class="diferenciais__card-imagem">
                 </div>
             </section>
-        </section>
+        </main>
+        
     </body>
 </html>
